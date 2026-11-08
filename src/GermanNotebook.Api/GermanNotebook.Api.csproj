@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>7759b669-f248-412e-9916-8bfe0bd16372</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.11" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.18.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GermanNotebook.Core\GermanNotebook.Core.csproj" />
+    <ProjectReference Include="..\GermanNotebook.Infrastructure\GermanNotebook.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
