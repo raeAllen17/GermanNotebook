@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GermanNotebook.Api/GermanNotebook.Api.csproj" />
+    <Project Path="src/GermanNotebook.Core/GermanNotebook.Core.csproj" />
+    <Project Path="src/GermanNotebook.Infrastructure/GermanNotebook.Infrastructure.csproj" />
+  </Folder>
+</Solution>
